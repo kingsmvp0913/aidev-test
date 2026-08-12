@@ -5,7 +5,9 @@
     'author': 'IDX',
     'version': '17.0.1.0.0',
     'depends': ['base'],
-    'data': [],
+    'data': [
+        'views/res_partner_views.xml',
+    ],
     'assets': {
         'web.assets_tests': [
             'idx_partner_code/static/tests/tours/idx_partner_code_tour.js',
